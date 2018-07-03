@@ -134,7 +134,7 @@ public class Olympic {
 	}
 
 	@Test
-	public void countryByModelTest() {
+	public void countryByMedalTest() {
 
 		List<String> actual = medalCount(silverMedalsNumbersAndCountries, 18);
 		List<String> expexted = Arrays.asList("China", "France");
